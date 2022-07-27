@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32407.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{200E8565-226C-3E75-B8EB-B7A026E91C99}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9ED292FA-EA22-3936-85EC-5016A748B380} = {9ED292FA-EA22-3936-85EC-5016A748B380}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZED Thresholding", "ZED Thresholding.vcxproj", "{9ED292FA-EA22-3936-85EC-5016A748B380}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		MinSizeRel|x64 = MinSizeRel|x64
+		Release|x64 = Release|x64
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{200E8565-226C-3E75-B8EB-B7A026E91C99}.Debug|x64.ActiveCfg = Debug|x64
+		{200E8565-226C-3E75-B8EB-B7A026E91C99}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{200E8565-226C-3E75-B8EB-B7A026E91C99}.Release|x64.ActiveCfg = Release|x64
+		{200E8565-226C-3E75-B8EB-B7A026E91C99}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{9ED292FA-EA22-3936-85EC-5016A748B380}.Debug|x64.ActiveCfg = Debug|x64
+		{9ED292FA-EA22-3936-85EC-5016A748B380}.Debug|x64.Build.0 = Debug|x64
+		{9ED292FA-EA22-3936-85EC-5016A748B380}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{9ED292FA-EA22-3936-85EC-5016A748B380}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{9ED292FA-EA22-3936-85EC-5016A748B380}.Release|x64.ActiveCfg = Release|x64
+		{9ED292FA-EA22-3936-85EC-5016A748B380}.Release|x64.Build.0 = Release|x64
+		{9ED292FA-EA22-3936-85EC-5016A748B380}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{9ED292FA-EA22-3936-85EC-5016A748B380}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6277F6B-C09F-31C0-891D-A45DF8DBC48C}
+	EndGlobalSection
+EndGlobal
